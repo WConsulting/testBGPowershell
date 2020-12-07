@@ -777,7 +777,7 @@ BEGIN
     ##    Write-Host "The Automate Server Parameter Was Not Entered or Inaccessible" -ForegroundColor Red
     ##    Write-Host "Help: Get-Help Push-Automate -Full"
      ##   Break
-        }
+  ##      }
     $Whoami = whoami
     Write-Verbose "Running Script as: $whoami"
     If (($Username -eq $Null) -and ($Password -eq $Null) -and ($Credential -eq $Null) -and !((whoami) -eq 'nt authority\system'))
