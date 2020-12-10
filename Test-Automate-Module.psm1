@@ -797,7 +797,7 @@ BEGIN
         Write-Verbose "$($AutomateURL) is Active"
     }
     Catch {
-        Write-Host "The Automate Server Parameter Was Not Entered or InaccessibleERROR999" -ForegroundColor Red
+        Write-Host "The Automate Server Parameter Was Not Entered or InaccessibleERROR99925" -ForegroundColor Red
         Write-Host "Help: Get-Help Push-Automate -Full"
         Break
         }
